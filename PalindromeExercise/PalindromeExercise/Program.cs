@@ -6,7 +6,9 @@ namespace PalindromeExercise
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            WordSmith newOne = new WordSmith();
+            string reverse = newOne.IsApalindrom("ruby");
+            Console.WriteLine($"{reverse}");
         }
     }
 }
